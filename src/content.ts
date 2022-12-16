@@ -167,6 +167,18 @@ const resultPromise = (async (): Promise<{
     // @ts-ignore
     // window.json = parsedJsonValue
     // console.log('JSON Formatter: Type "json" to inspect.')
+
+    let url = window.location.href;
+
+    const divUrl = document.createElement('div');
+    const textUrl = document.createTextNode(url);
+    divUrl.appendChild(textUrl);
+    divUrl.style.wordBreak = "break-all";
+    divUrl.style.marginTop = "40px";
+    divUrl.style.paddingBottom = "20px"
+
+    let divJson = document.getElementById("jsonFormatterParsed");
+    divJson.prepend(divUrl);
   }
 
   return {

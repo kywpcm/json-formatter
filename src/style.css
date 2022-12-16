@@ -153,7 +153,7 @@ body {
 }
 
 .entry {
-  font-size: 13px;
+  font-size: 15px;
   font-family: monospace;
 }
 
@@ -210,8 +210,8 @@ span {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #1a1a1a;
-    color: #eee;
+    background-color: #ffffff;
+    color: #080808;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -225,7 +225,7 @@ span {
   }
 
   #jsonFormatterParsed {
-    color: #b6b6b6;
+    color: #4d4d4d;
   }
 
   .blockInner {
@@ -233,11 +233,11 @@ span {
   }
 
   .k {
-    color: #fff;
+    color: #871094;
   }
 
   .s {
-    color: hsl(114, 100%, 35%);
+    color: hsl(114, 86%, 28%);
   }
 
   .bl,
@@ -247,7 +247,7 @@ span {
   }
 
   .e {
-    color: #fff;
+    color: #707070;
     opacity: 0.25;
   }
 
